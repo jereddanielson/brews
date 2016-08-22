@@ -49,4 +49,4 @@ To clean the public directory without running webpack:
 > $ npm run clean
 ```
 
-Forked from Ali Al Dallal's [react-webpack-babel](https://github.com/alicoding/react-webpack-babel) boilerplate.
+Inspired by Ali Al Dallal's [react-webpack-babel](https://github.com/alicoding/react-webpack-babel) boilerplate.
