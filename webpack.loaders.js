@@ -18,7 +18,7 @@ module.exports = [
 		loader: "file"
 	},
 	{
-		test: /\.(woff|woff2)$/,
+		test: /\.(woff|woff2|otf)$/,
 		loader: "url?prefix=font/&limit=5000"
 	},
 	{
@@ -41,4 +41,8 @@ module.exports = [
 		test: /\.png/,
 		loader: "url-loader?limit=10000&mimetype=image/png"
 	},
+	{
+		test: /\.json/,
+		loader: "json-loader"
+	}
 ];
