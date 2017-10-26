@@ -5,7 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "dev": "node server.js",
-    "build": "NODE_ENV=production webpack -p --config webpack.config.production.js --progress --profile --colors --optimize-minimize",
+    "build": "webpack --config webpack.config.production.js --progress --profile --colors",
     "clean": "rm -rf public"
   },
   "keywords": [
